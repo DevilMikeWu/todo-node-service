@@ -1,0 +1,45 @@
+{
+  "name": "todo-node-service",
+  "version": "1.0.0",
+  "description": "todo node service",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "start": "tsc && node src/server.ts",
+    "serve": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevilMikeWu/todo-node-service.git"
+  },
+  "author": "mike wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevilMikeWu/todo-node-service/issues"
+  },
+  "homepage": "https://github.com/DevilMikeWu/todo-node-service#readme",
+  "dependencies": {
+    "@types/koa-bodyparser": "^4.2.2",
+    "@types/koa-mount": "^3.0.1",
+    "@types/koa-static": "^4.0.1",
+    "@types/mongoose": "^5.3.26",
+    "@types/ws": "^6.0.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.3",
+    "sys": "0.0.1",
+    "systeminformation": "^4.1.6",
+    "ws": "^6.2.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-router": "^7.0.40",
+    "nodemon": "^1.18.11",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4"
+  }
+}
